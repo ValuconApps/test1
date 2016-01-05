@@ -1,0 +1,59 @@
+AllCops:
+  Exclude:
+    - 'node_modules/**/*'
+    - 'db/schema.rb'
+    - 'vendor/**/*'
+
+Metrics/LineLength:
+  Max: 150
+
+Style/Documentation:
+  Enabled: true
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/NumericLiterals:
+  MinDigits: 15
+
+Style/SpaceAfterComma:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  Enabled: true
+
+Style/SpaceBeforeBlockBraces:
+  EnforcedStyle: space
+
+Style/SpaceInsideBrackets:
+  Enabled: false
+
+Style/TrailingBlankLines:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+
+Style/SignalException:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Max: 150

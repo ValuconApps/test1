@@ -1,0 +1,21 @@
+defaults: &defaults
+  adapter: postgresql
+  host:     localhost
+  encoding: unicode
+  pool: 5
+  username:
+  password:
+  template: template0
+
+development:
+  <<: *defaults
+  database: valucon_development
+production:
+  <<: *defaults
+  database: valucon_production
+staging:
+  <<: *defaults
+  database: valucon_staging
+test:
+  <<: *defaults
+  database: valucon_test
